@@ -69,8 +69,8 @@ body:
     id: savefile
     attributes:
       label: Save File
-      description: Please attach your .json save file (drag and drop)
-      placeholder: Drag and drop your .json save file here
+      description: Please attach your save file (drag and drop). Compress the file if it is too big to upload.
+      placeholder: Drag and drop your save file here
     validations:
       required: true
 
