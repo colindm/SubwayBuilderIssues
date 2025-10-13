@@ -1,0 +1,84 @@
+name: Bug Report
+description: Report a bug or issue with Subway Builder
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Tell us what happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What you expected to happen
+      placeholder: What should have happened?
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      description: What OS are you using?
+      placeholder: e.g., Windows 11, macOS 14.5, Ubuntu 22.04
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: If applicable, add a screenshot to help explain your problem (drag and drop or paste)
+      placeholder: Drag and drop image here
+    validations:
+      required: false
+
+  - type: textarea
+    id: video
+    attributes:
+      label: Video
+      description: If applicable, add a video showing the issue (drag and drop or paste a link)
+      placeholder: Drag and drop video or paste link here
+    validations:
+      required: false
+
+  - type: textarea
+    id: savefile
+    attributes:
+      label: Save File
+      description: Please attach your .json save file (drag and drop)
+      placeholder: Drag and drop your .json save file here
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here
+      placeholder: Any other details?
+    validations:
+      required: false
