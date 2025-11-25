@@ -78,7 +78,7 @@ body:
     id: savefile
     attributes:
       label: Save File
-      description: Please attach your save file (drag and drop). Compress the file if it is too big to upload.
+      description: Please attach your save file (drag and drop). If the save file is .metro format, compress it into a .zip file.
       placeholder: Drag and drop your save file here
     validations:
       required: true
